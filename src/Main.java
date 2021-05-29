@@ -4,9 +4,9 @@ public class Main {
         int mile;
         int conditionForMileInPenny;
 
-        priceInPenny = 1000000_20;
+        priceInPenny = 200_20;
         conditionForMileInPenny = 2000;
-        mile = (int) (priceInPenny / conditionForMileInPenny);
+        mile = priceInPenny / conditionForMileInPenny;
         System.out.println("Количество миль: " + mile);
     }
 }
